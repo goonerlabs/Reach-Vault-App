@@ -92,7 +92,7 @@ if (who === 'Alice') {
   ...commonInteract(who),
   acceptTerms: async (amt, deadline) => {
     if (Math.random() <= 0.1) {
-        for (let i = 0; i < 20 ; i++) {
+        for (let i = 0; i < 10 ; i++) {
           console.log("Bob takes his sweet time...");
           await stdlib.wait(1);
         }
